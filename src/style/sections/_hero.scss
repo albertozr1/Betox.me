@@ -4,9 +4,9 @@
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
+  background:rgba(0, 0, 0, 0.897);
   font-weight: 400;
-  color: $dark-blue-text;
+  color:whitesmoke; 
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
@@ -17,9 +17,9 @@
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
-  /* background: url("/src/assets/[your-image].png");
+  background: url("https://pixabay.com/get/g914e30e8fe3b4d62564395078f340ed8da276e1be550f246387021a563ac485ee00c9a2ef2ad06277ae398a4cdd93491121f0bbb0e112af885dd248cca866b53_1920.jpg");
   background-position: center;
-  background-size: cover; */
+  background-size: cover; 
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
@@ -30,6 +30,7 @@
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left;
+    
 
     @include respond(tab-land) {
       font-size: 4rem;
